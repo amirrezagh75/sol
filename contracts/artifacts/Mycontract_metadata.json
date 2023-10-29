@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "setUserAddress",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "userAddress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/first.sol": "Mycontract"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/first.sol": {
+			"keccak256": "0x18a3522496e9022d4a609ff48546f02eae5362a33105d2b32656c551af60181f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1dc90cbaf21a50520dc0f7e42115e23571e6e7c301f6ef95e3d4e8a1e67f06c6",
+				"dweb:/ipfs/QmNME1KgE96BNH1YNgL6PtzWw5F4MN9C59fbvNbS54PqaM"
+			]
+		}
+	},
+	"version": 1
+}
